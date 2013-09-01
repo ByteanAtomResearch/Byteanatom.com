@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" itemscope itemtype="http://schema.org/Organization"> <!--<![endif]-->
+<head>
+	<title>Byte an Atom - Glassware, Software and Hardware Innovation</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Byte an Atom Research landing page"/>
+    <meta name="keywords" content="Fitness, Google Glass, GlassFit, XFit"/>
+    <meta name="author" content="Noble Ackerson"/>
+	
+	<link rel="stylesheet" type="text/css" href="css/bgstretcher.css" />
+
+<!-- Meta information for Open Graph or Schema in case we ever need it 
+  ================================================== -->
+	<meta itemprop="name" content="XFit by Byte an Atom">
+	<meta itemprop="description" content="Follow this site for early announcements on the upcoming Fitness #throughglass launch!">
+	<meta itemprop="image" content="http://www.byteanatom.com/images/bar-screenie.png">
+	<meta property="og:image" content="http://www.byteanatom.com/images/bar-screenie.png">
+
+
+
+<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	
+	<!-- Scripts
+	================================================== -->
+	<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+	<script type="text/javascript" src="js/bgstretcher.js"></script>
+	<script type="text/javascript" src="js/jquery.myHint.js"></script>
+	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="js/customUI.js"></script>
+    <script type="text/javascript" src="js/respond.src.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+
+	<table class="doc-loader">
+    	<tr>
+        	<td>
+            	<img src="images/loader.gif" alt="loading..." />
+            </td>
+		</tr>
+	</table>
+    
+    <div class="container">
+    	<div class="sixteen columns">
+    		<div class="top_bar">
+    			<img src="images/top_bar.png" alt="top_bar" />
+        	</div>
+    	</div>
+    </div>
+    
+    <div class="body_wrapper">
+    	<div class="wrapper_main">
+			<div class="header">
+				<div class="container">
+					<div class="sixteen columns">
+						<img src="images/logo.png" alt="Logo" />
+					</div>
+				</div><!--end container-->
+			</div><!--end header-->
+			
+			<div class="wrapper_content">
+				<div class="container">
+							   
+					<div class="eleven columns underlined">
+						<h1>FOCUSED ON FITNESS THROUGH GOOGLE GLASS™. MORE INFO COMING SOON.</h1>
+					</div><!--end ten-->
+                    
+					<div class="ten columns socio_contact">
+						<ul>
+                            <li><a href="https://plus.google.com/u/0/108762721390194007374/about" target="_blank" class="socio_contact_plus"></a></li>
+                            <li><a href="https://www.twitter.com/nobleackerson" target="_blank" class="socio_contact_twitter"></a></li>
+                            <!--<li><a href="#" target="_blank" class="socio_contact_facebook"></a></li>-->
+                            <li class="last"><a href="http://www.linkedin.com/in/noblea" target="_blank" class="socio_contact_linkedin"></a></li>
+						</ul>
+					</div><!--end ten-->
+                    
+                    <div class="ten columns subscribe">
+						
+						<!--  Render G+ Sign-In Button -->
+						<span id="signinButton">
+						  <span
+						    class="g-signin"
+						    data-callback="signinCallback"
+						    data-clientid="524597383133.apps.googleusercontent.com"
+						    data-cookiepolicy="single_host_origin"
+						    data-requestvisibleactions="http://schemas.google.com/AddActivity"
+						    data-scope="https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email">
+						  </span>
+						  
+						</span>
+						<!-- End Render G+ Sign-In Button -->
+
+						<!-- G+Share button
+						<button class="g-interactivepost"
+				               data-contenturl="http://www.byteanatom.com/?s=gplus"
+				               data-clientid="524597383133.apps.googleusercontent.com"
+				               data-cookiepolicy="single_host_origin"
+				               data-prefilltext="Project XFit is coming to Google Glass!"
+				               data-calltoactionlabel="SIGN_UP"
+				               data-calltoactionurl="http://www.byteanatom.com/">
+				               Project XFit is coming!
+						</button>
+						End G+Share button -->
+
+					</div><!--end ten-->
+                    
+                    <div class="ten columns footnote">
+                        <!--<p>
+                            *Check our Google+ page for updates.
+                        </p>-->
+                        <p id="infotext" style="display:none;" >
+                            *Authenticate to be the first to hear about the launch.
+                        </p>
+                        
+                        <div class="ten columns" id="display">
+						</div><!--end ten-->
+						<div class="ten columns" id="display_err">
+						</div><!--end ten-->
+                        
+					</div><!--end ten-->
+                    
+			</div><!--end wrapper_content-->
+            <div class="clearfix"></div>
+				
+			<div class="footer">
+		
+				<div class="container">
+				
+					<div class="four columns">
+					 	<img src="images/footer_logo.png" alt="footer_logo" />
+					</div><!--end four-->
+				  
+					<div class="three columns">
+                        <p>
+                            Core Team
+                        </p>
+						<div class="column_20"></div>
+						<div class="clearfix"></div>
+						<p>
+                        	Noble Ackerson <br />
+							Cecilia Abadie<br />
+							Mauro Canziani
+                    	</p>
+					</div><!--end three-->
+					
+					<div class="three columns ">
+						<p>
+                            Board of Directors
+                        </p>
+						<div class="column_20"></div>
+						<div class="clearfix"></div>
+						<p class="contact">
+							Stephen X. Graham<br />
+							Mark Huang<br />
+							Scott Darling
+						</p>
+					</div><!--end four-->
+
+					<div class="four columns ">
+						<p>
+                            Located
+                        </p>
+						<div class="column_20"></div>
+						<div class="clearfix"></div>
+						<p class="contact">
+							201 North Union Street<br />
+							Suite 300<br />
+							Alexandria VA, 22314
+						</p>
+					</div><!--end four-->
+					
+				</div><!--and container -->
+          
+    	    </div><!--end footer-->
+            
+        </div><!--wrapper_main-->
+        
+            <div class="bottom">
+                <div class="container">
+                    <div class="sixteen"><p class="contact center">Copyright 2013 Anobleworld S3, Inc. | Glass is a trademark of Google Inc.<p></div>
+                </div><!--and container -->
+            </div><!--end bottom-->
+    
+	</div><!--body_wrapper--> 
+    <script type="text/javascript" src="js/retina.js"></script>  
+<!-- End Document
+================================================== -->	
+
+<!-- Begin Analytics-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-93391-17', 'byteanatom.com');
+	  ga('send', 'pageview');
+
+	</script>
+<!-- End Analytics -->
+
+<!-- Begin Google+ Sign-In -->
+	<script type="text/javascript">
+      (function() {
+       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+       po.src = 'https://apis.google.com/js/client:plusone.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+     })();
+    </script>
+<!-- End Google+ Sign-In-->
+</body>
+</html>

@@ -1,0 +1,514 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+		/* common
+		/* socio contact
+		/* subscribe
+		/* time
+		/* footer
+		/* frame
+		/* message that represents email sending result
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+/* common
+================================================== */
+html, body {
+	
+}
+.doc-loader
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.doc-loader td
+{
+    vertical-align: middle;
+    text-align: center;
+	background-color: #fff;
+}
+.body_wrapper
+{
+	font-family: 'Arial',HelveticaNeue,Arial,sans-serif;
+	color: #FFF;
+	overflow: hidden;
+	z-index: 0;
+}
+a,
+a:visited, 
+a:hover, 
+a:active
+{
+    text-decoration: none;
+    border: none;
+    outline: none;
+	color: #fff;
+}
+.contact a,
+.contact a:visited, 
+.contact a:hover, 
+.contact a:active
+{
+	color: #868686;
+}
+.infotext a,
+.infotext a:visited,
+.infotext a:hover,
+.infotext a:active
+{
+	color: #ccc;
+	font-size: 12px;
+}
+.header
+{
+	padding-bottom: 110px;
+}
+.eleven.columns.underlined h1
+{
+	font-family:'Arial Black',HelveticaNeue,Arial,sans-serif;
+	font-weight: bold;
+	border-bottom: 20px solid #FFF;
+	font-size: 55px;
+	line-height: 45px;
+	letter-spacing: -0.07em;
+	padding-bottom: 15px;
+}
+
+/* socio contact
+================================================== */
+.socio_contact 
+{
+	padding-top: 25px;
+	margin-bottom: 25px;
+	height: 28px;
+}
+.socio_contact ul li 
+{
+	float: left;
+	margin-right: 11px;
+}
+.socio_contact ul li.last 
+{
+	margin-right: 0px;
+}
+.socio_contact ul li a
+{	
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+a.socio_contact_plus {background: transparent url('../images/plus.png') no-repeat;}
+a.socio_contact_twitter {background: transparent url('../images/twitter.png') no-repeat;}
+a.socio_contact_facebook {background: transparent url('../images/facebook.png') no-repeat;}
+a.socio_contact_linkedin {background: transparent url('../images/linkedin.png') no-repeat;}
+
+/* subscribe
+================================================== */
+#subscribe
+{
+    display: none;
+}
+.subscribe
+{
+    height: 65px;
+    background-repeat: no-repeat;
+}
+#subscriberEmail
+{
+	float: left;
+	width: 450px;
+	height: 65px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family:'Arial',HelveticaNeue,Arial,sans-serif;
+	font-size: 12px;
+	letter-spacing: 0em;
+	text-indent: 15px;
+	line-height: 12px;
+    color: #9b9b9b;
+	border: none;
+	outline: none;
+	-moz-border-radius: 0em; /* Firefox */
+	-webkit-border-radius: 0em; /* Safari, Chrome */
+	border-radius: 0em; /* CSS3 */
+}
+#subscribeButton
+{
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 65px;
+	height: 100%;
+	text-align: center;
+	background-color: #d4281b;
+	font-size: 12px;
+	letter-spacing: 0em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	line-height: 65px;
+	vertical-align: middle;	
+}
+#subscribeButton:hover
+{
+    text-decoration: none;
+	background-color: #e54c41;
+}
+.ten.columns.footnote
+{
+	margin-bottom: 70px;
+}
+.footnote p
+{
+	padding-top: 10px;
+	margin-left: 16px;
+	font-size: 12px;
+	letter-spacing: 0px;
+}
+
+/* time
+================================================== */
+.time
+{
+	font-family:'Arial Black',HelveticaNeue,Arial,sans-serif;
+	font-weight: bold;
+	float: left;
+	height: 68px;
+}
+.time ul li 
+{
+    text-align: center;
+    float: left;
+}
+.time ul li.middle
+{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.time span
+{
+	font-size: 110px;
+	line-height: 97px;
+	letter-spacing: -.07em;
+}
+.time ul li span.timeDescription
+{
+	display: block;
+	font-family:'Arial',HelveticaNeue,Arial,sans-serif;
+	font-weight: normal;
+    font-size: 12px;
+	letter-spacing: -0.02em;
+	line-height: 14px;
+    color: #868686;
+	text-align: center;
+}
+
+/* footer
+================================================== */
+.footer
+{
+	min-height: 200px;        
+	background: #FFF;
+	padding-top: 76px;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: -0.02em;
+	color: #868686;
+	z-index: 100;
+}
+.column_20 
+{
+	width: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: transparent url('../images/dot.png') repeat-x;
+	background-position: center;
+	height: 1px;
+}
+.footer .padding_top
+{
+	padding-top: 20px;
+}
+
+/* frame
+================================================== */
+.bottom
+{
+	background-color: #fff;
+}
+.top_bar
+{
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+		
+}
+.top_bar img 
+{
+	width: 100%;
+	height: 50px;
+}
+
+/* message that represents email sending result
+================================================== */
+#display {
+	display: none;
+	position: relative;
+	width: 200px;
+	height: 30px;
+	font-family:'Arial',HelveticaNeue,Arial,sans-serif;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	color: #fff;
+	padding-top: 15px;
+	z-index: 10;	
+}
+#display_err {
+	display: none;
+	position: relative;
+	padding-top: 15px;
+	width: 155px;
+	height: 30px;
+	font-family:'Arial',HelveticaNeue,Arial,sans-serif;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	color: #fff;
+	z-index: 10;
+}
+
+/* #Media Queries
+================================================== */
+	@media only screen and (max-width: 1260px) {
+		.eleven.columns.underlined h1
+		{
+			font-size: 50px;
+			line-height: 40px;
+			padding-bottom: 13px;
+		}
+		#subscriberEmail
+		{
+			width: 360px;
+		}
+		.time span
+		{
+			font-size: 95px;
+			line-height: 110px;
+		}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	
+	@media only screen and (max-width: 959px) {
+		.eleven.columns.underlined h1
+		{
+			font-size: 45px;
+			line-height: 35px;
+			padding-bottom: 12px;
+		}
+		#subscriberEmail
+		{
+			width: 320px;
+		}
+		.time span
+		{
+			font-size: 88px;
+			line-height: 100px;
+		}
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.time
+		{
+			height: 66px;
+		}
+	}
+	
+	@media only screen and (max-width: 790px) {
+		body
+		{
+			padding: 12px;
+			padding-bottom: 0px;
+		}
+		.top_bar img 
+		{
+			position: fixed;
+			top: 0px;
+			width: 100%;
+			height: 12px;
+		}
+		.eleven.columns.underlined h1
+		{
+			font-size: 38px;
+			line-height: 30px;
+			padding-bottom: 10px;
+		}
+		#subscriberEmail
+		{
+			width: 310px;
+			height: 50px;
+		}
+		.ten.columns.footnote
+		{
+			margin-bottom: 50px;
+		}
+		.time span
+		{
+			font-size: 77px;
+			line-height: 110px;
+		}#subscribeButton
+		{
+			width: 50px;
+			line-height: 50px;
+		}
+		#display
+		{
+			padding-left: 10px;
+		}
+		#display_err 
+		{
+			padding-left: 10px;
+		}.subscribe
+		{
+			height: 50px;
+		}
+		.footer .padding_top
+		{
+			padding-top: 0px;	
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.container .four.columns 
+		{ 
+			width: 270px;
+		}
+		.eleven.columns.underlined h1    
+		{
+			font-size: 33px;
+		}
+		#subscriberEmail
+		{
+			width: 225px;
+			height: 40px;
+		}
+		.ten.columns.footnote
+		{
+			margin-bottom: 30px;
+		}
+		.time
+		{
+			height: 66px;
+		}
+		.time span
+		{
+			font-size: 66px;
+			line-height: 110px;
+		}
+		#subscribeButton
+		{
+			width: 40px;
+			line-height: 40px;
+		}
+		.message_bottom
+		{
+
+			background-color:#FFF; 	
+		}
+		#display
+		{
+			padding-left: 10px;
+		}
+		#display_err 
+		{
+			padding-left: 10px;
+		}
+		.subscribe
+		{
+			height: 40px;
+		}
+		.footer .padding_top
+		{
+			padding-top: 0px;	
+		}
+		.ten.columns.footnote
+		{
+			margin-bottom: 80px;
+		}
+	}	
+		/* for retina ready devices */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2) {
+		a.socio_contact_flickr {
+			background:url(../images/flickr@2x.png) no-repeat;
+			-webkit-background-size: 100%  100% ;
+		    -moz-background-size: 100%  100% ;
+			background-size: 100%  100% ;
+		}
+		a.socio_contact_plus {
+			background:url(../images/plus@2x.png) no-repeat;
+			-webkit-background-size: 100%  100% ;
+		    -moz-background-size: 100%  100% ;
+			background-size: 100%  100% ;
+		}
+		a.socio_contact_twitter {
+			background:url(../images/twitter@2x.png) no-repeat;
+			-webkit-background-size: 100%  100% ;
+		    -moz-background-size: 100%  100% ;
+			background-size: 100%  100% ;
+		}
+		a.socio_contact_facebook {
+			background:url(../images/facebook@2x.png) no-repeat;
+			-webkit-background-size: 100%  100% ;
+		    -moz-background-size: 100%  100% ;
+			background-size: 100%  100% ;
+		}
+		a.socio_contact_linkedin {
+			background:url(../images/linkedin@2x.png) no-repeat;
+			-webkit-background-size: 100%  100% ;
+		    -moz-background-size: 100%  100% ;
+			background-size: 100%  100% ;
+		}
+		.header .container
+		{
+			padding-left: 15px;
+		}
+		.wrapper_content .container
+		{
+			padding-left: 15px;
+		}
+}
+
+
